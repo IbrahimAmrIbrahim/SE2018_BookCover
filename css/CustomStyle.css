@@ -1,0 +1,64 @@
+html {
+    position: relative;
+    display: table;
+    margin: 0px;
+    width: 100%;
+    min-height: 100%;
+}
+
+body {
+    /* Margin bottom by footer height */
+    margin-top: 30px;
+    margin-bottom: 70px;
+    background-color: #000000;
+    width: 100%;
+}
+
+.page-footer{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    background-color: #343a40;
+    padding-top: 10px;
+    color: #ffffff;
+}
+
+
+.input-text{
+    background-color: #00cc00;
+    color: #000000;
+    width: 180px;
+}
+
+.input-group{
+    padding-bottom: 20px;
+}
+
+body > .container {
+    padding: 60px 0px 20px;
+}
+
+#DataCol{
+    width: 50%;
+    min-width: 400px;
+}
+
+
+#CoverCol{
+    padding-left: 0px;
+    padding-right: 0px;
+    border: #ffffff solid 1px;
+    height: 540px;
+    min-width: 473px;
+    max-width: 473px;
+    text-align: center;
+}
+
+#BackgroundDiv{
+    padding-left: 0px;
+    padding-right: 0px;
+    height: 538px;
+    min-width: 471px;
+    max-width: 471px;
+    text-align: center;
+}
